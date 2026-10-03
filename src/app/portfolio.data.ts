@@ -64,11 +64,11 @@ export const PROFILE: Profile = {
 };
 
 export const SKILLS: SkillGroup[] = [
-  { title: 'Languages', items: ['JavaScript', 'TypeScript', 'Java', 'Python', 'Dart'] },
-  { title: 'Back-end', items: ['Node.js', 'Express', 'REST API', 'JWT', 'bcrypt', 'Multer'] },
-  { title: 'Database', items: ['MySQL', 'Firebase Firestore'] },
-  { title: 'Front-end', items: ['Angular', 'Flutter', 'HTML', 'CSS', 'Bootstrap'] },
-  { title: 'Tools & Testing', items: ['Git / GitHub', 'Postman', 'Mocha + Chai', 'Figma', 'VS Code'] },
+  { title: 'Programming Languages', items: ['JavaScript', 'TypeScript', 'Java', 'Python', 'Dart'] },
+  { title: 'Backend', items: ['Node.js', 'Express'] },
+  { title: 'Database', items: ['MySQL', 'Firebase'] },
+  { title: 'Frontend', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Angular', 'Flutter'] },
+  { title: 'Tools & Technologies', items: ['GitHub', 'Figma', 'VS Code', 'Postman', 'Flutter'] },
 ];
 
 export const EDUCATION: Education[] = [
