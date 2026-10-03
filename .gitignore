@@ -1,43 +1,27 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# เก็บขึ้น GitHub เฉพาะไฟล์ที่ใช้สร้างหน้าเว็บ ที่เหลือไม่ต้อง
 
-# Compiled output
+# ไฟล์ที่ build แล้ว / ไฟล์ชั่วคราว
 /dist
 /tmp
 /out-tsc
-/bazel-out
+/.angular
+/coverage
 
 # Node
 /node_modules
-npm-debug.log
-yarn-error.log
+*.log
 
-# IDEs and editors
+# ตั้งค่า editor / เครื่องมือ
+.vscode/
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+.claude/
+.editorconfig
+.history/
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+# ไฟล์เทสต์
+*.spec.ts
+tsconfig.spec.json
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-__screenshots__/
-
-# System files
+# ไฟล์ระบบ
 .DS_Store
 Thumbs.db
